@@ -110,7 +110,46 @@ header{
     margin-top: 48px;
     border: 1px solid red;
 }
-
+.hot{
+   
+    background-color: rgba(229, 84, 115, 0.05);
+    margin-top: 30px;
+    margin: 20px auto;
+}
+.hot-father{
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+   align-items: center;
+   gap: 186px;
+}
+.hot-deal-title{
+    font-weight: 800;
+    font-size: 2.5rem;
+    color: rgb(39, 39, 39);
+}
+.span{
+    color: rgb(229, 84, 115);
+}
+.hot-deal-description{
+    color: rgba(39, 39, 39, 0.6);
+    font-weight: 400;
+    font-size: 1.125rem;
+}
+.hot-image img{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 100%;
+}
+.card-1{
+    max-width: 1440px;
+    margin-top: 10px;
+    margin: 0 auto;
+}
+.image-card-1{
+  border: 1px solid red;
+  margin-left: 24px;
+}
 
 
 
@@ -149,6 +188,9 @@ header{
     }
     .box-image{
         width: 100%;
+    }
+    .hot-father{
+        flex-direction: column;
     }
   
     
