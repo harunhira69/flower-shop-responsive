@@ -1,0 +1,156 @@
+
+header{
+    
+    background-color: rgba(229, 84, 115, 0.1);
+   
+  
+}
+.makes-tittle{
+   font-weight:  800;
+   font-size: 5rem;
+   color: rgb(39, 39, 39);
+   width: 708px;
+   border: 1px solid green;
+}
+.makes-description{
+    font-size: 400;
+    font-size: 1.2rem;
+    color: rgba(39, 39, 39, 0.6);
+    width: 630px;
+    
+    
+}
+.btn-primary{
+   background-color: rgb(229, 84, 115);
+    Width: 177px;
+   height: 64px;
+   border-radius: 8px;
+   color: #FFFFFF;
+   font-size: 1.2rem;
+   padding: 20px 40px;
+   border-style: none;
+ 
+}
+.make{
+    display: flex;
+       max-width: 1440px;
+    margin: 0 auto;
+   
+}
+
+.flower-image img{
+    width:100%
+}
+.flower-title{
+    font-weight: 800;
+    color: rgb(39, 39, 39);
+    font-size: 2.5rem;
+    width: 390px;
+}
+.flower-description{
+    font-weight: 400;
+    font-size: 1.125rem;
+    color: rgba(39, 39, 39, 0.6);
+   max-width:  594px;
+    height: 60px;
+}
+.flower{
+    text-align: center;
+}
+.feature{
+    max-width: 1440px;
+    margin: auto;
+}
+.our-feature{
+    align-items: center;
+    text-align: center;
+}
+.our-feature-title{
+    font-weight: 800;
+    font-size: 2.5rem;
+    color: rgb(39, 39, 39);
+}
+.feature-description{
+    font-size: 1.125rem;
+    font-weight: 400;
+    color: rgba(39, 39, 39, 0.6);
+}
+.box-image{
+    width: 464px;
+    height: 605px;
+    border: 1px solid red;
+    border-radius: 300px 300px 0px 0px;
+    background-color: rgba(167, 33, 98, 0.15);
+    justify-content: center;
+    align-items: center;
+}
+.box-image img{
+   position: relative;
+   width: 310px;
+   top: 110px;
+
+  
+}
+.box-card{
+    display: flex;
+    gap: 24px;
+}
+
+
+
+.box-name{
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: rgb(39, 39, 39);
+    text-align: center;
+}
+.card{
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: 48px;
+    border: 1px solid red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive  small device*/
+@media screen and (max-width:576px) {
+    .make{
+        flex-direction: column;
+    }
+    .makes-description{
+        width: 100%;
+    }
+    .makes-tittle{
+        width: 100%;
+    }
+    .box-card{
+        flex-direction: column;
+    }
+    .box-image{
+        width: 100%;
+    }
+  
+    
+    
+}
